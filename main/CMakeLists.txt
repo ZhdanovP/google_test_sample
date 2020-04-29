@@ -10,6 +10,7 @@ add_executable(myApp
 target_link_libraries(myApp
     libfoo
     libbar
+    libbinTree
 )
 
 install(TARGETS myApp DESTINATION bin)
